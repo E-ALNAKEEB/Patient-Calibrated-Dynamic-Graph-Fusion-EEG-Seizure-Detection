@@ -1,0 +1,4 @@
+split seed,fusion minus dynamic f1,fusion minus dynamic false positive rate,fusion has higher f1,fusion has lower false positive rate
+13,-0.09020595643799079,-0.04646464646464647,False,True
+42,-0.05694349897889728,0.08237547892720304,False,False
+77,0.10459551404024675,0.04086021505376344,True,False

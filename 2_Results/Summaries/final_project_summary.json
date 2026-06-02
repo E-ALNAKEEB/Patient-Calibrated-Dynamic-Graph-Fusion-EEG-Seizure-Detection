@@ -1,0 +1,30 @@
+{
+  "project title": "Patient Calibrated Dynamic Graph Fusion for Cross Patient EEG Seizure Detection",
+  "final selected method": "Validation Tuned Graph Ensemble",
+  "train patients": [
+    "chb05",
+    "chb06",
+    "chb08",
+    "chb10"
+  ],
+  "validation patients": [
+    "chb03"
+  ],
+  "test patients": [
+    "chb07",
+    "chb01",
+    "chb02"
+  ],
+  "total windows": 2712,
+  "seizure windows": 678,
+  "non seizure windows": 2034,
+  "calibration windows": 160,
+  "best patient calibrated method": "Patient Calibrated GAT alpha 0.75",
+  "best hybrid method": "Hybrid DPC GAT alpha 0.5",
+  "strongest individual baseline": "Dynamic GCN",
+  "final results file": "/content/Final_EEG_Graph_Seizure_Project/results/final_model_comparison.csv",
+  "ablation file": "/content/Final_EEG_Graph_Seizure_Project/results/main_ablation_table.csv",
+  "patient results file": "/content/Final_EEG_Graph_Seizure_Project/results/patient_wise_final_results.csv",
+  "bootstrap summary file": "/content/Final_EEG_Graph_Seizure_Project/results/bootstrap_summary.csv",
+  "robustness summary file": "/content/Final_EEG_Graph_Seizure_Project/results/repeated_patient_split_summary.csv"
+}
